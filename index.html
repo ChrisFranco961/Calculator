@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="code.js" defer></script>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <h1>Calculator</h1>
+    <div id="container">
+    <div id="top"> 
+    <div id="screen"></div>
+    <button onclick="clearinput()" id="AC">AC</button>
+    </div>
+    <div id="firstrow">
+        <button onclick="userinput('7')" class="number" value="+7" id="7">7</button>
+        <button onclick="userinput('8')" class="number"  value="+8" id="8">8</button>
+        <button onclick="userinput('9')" class="number" value="+9" id="9">9</button>
+        <button onclick="userinput(' / ')"  value="/" id="divided">/</button>
+    </div>
+    <div id="secondrow">
+        <button onclick="userinput('4')" class="number" value="+4" id="4">4</button>
+        <button onclick="userinput('5')" class="number" value="+5" id="5">5</button>
+        <button onclick="userinput('6')"  class="number" value="+6" id="6">6</button>
+        <button onclick="userinput(' * ')" value="*" id="times">x</button>
+    </div>   
+    <div id="thirdrow">
+        <button onclick="userinput('1')"  class="number" value="+1" id="1">1</button>
+        <button onclick="userinput('2')"  class="number" value="+2"  id="2">2</button>
+        <button onclick="userinput('3')"  class="number" value="+3" id="3">3</button>
+        <button onclick="userinput(' - ')" value="-" id="minus">-</button>
+    </div>
+    <div id="fourthrow">
+        <button onclick="userinput('0')"  class="number" value="+0" id="0">0</button>
+        <button onclick="userinput('.')"  value="." id=".">.</button>
+        <button onclick="userinput(' + ')" value="+" id="plus">+</button>
+        <button onclick="equal()" id="equals">=</button>
+    </div>
+</div>
+</body>
+</html>

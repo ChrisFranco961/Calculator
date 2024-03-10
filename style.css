@@ -1,0 +1,38 @@
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: yellow;
+}
+#container{
+    display: flex;
+    flex-direction: column;
+    background-color: blue;
+}
+button{
+    background-color: chocolate;
+    margin: 0px;
+    height: 30px;
+    width: 30px
+}
+#AC{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#top{
+    display: flex;
+}
+#screen{
+    display: flex;
+    flex-wrap: wrap;
+    text-overflow: ellipsis;
+    max-width: 102px;
+    background-color: silver;
+flex: 1;
+border: 2px solid black;
+}
+
+
