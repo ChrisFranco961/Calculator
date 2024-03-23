@@ -1,5 +1,11 @@
 
+h1{
+    font-size: 6vh;
+    font-weight: bolder;
+}
 body{
+    height: 100vh;
+    width: auto;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -7,6 +13,9 @@ body{
     background-color: yellow;
 }
 #container{
+    flex-wrap: wrap;
+    height: 50vh;
+    width: 40vh ;
     display: flex;
     flex-direction: column;
     background-color: blue;
@@ -14,13 +23,15 @@ body{
 button{
     background-color: chocolate;
     margin: 0px;
-    height: 30px;
-    width: 30px
+       
 }
 #AC{
+    flex: 1;
     display: flex;
     justify-content: center;
     align-items: center;
+    
+    width: 3em;
 }
 #top{
     display: flex;
@@ -29,10 +40,42 @@ button{
     display: flex;
     flex-wrap: wrap;
     text-overflow: ellipsis;
-    max-width: 102px;
+    width: 8rem;
+    height: 6vh;
     background-color: silver;
-flex: 1;
-border: 2px solid black;
+    flex: 4;
+border: 0.2em solid black;
+}
+#firstrow{
+    flex: 1;
+    display: flex
+}
+#firstrow button{
+    flex: 1;
+}
+#secondrow{
+    flex: 1;
+    display: flex;
+}
+#secondrow button{
+    flex: 1;
+}
+#thirdrow{
+    flex: 1;
+    display: flex;
+}
+#thirdrow button{
+    flex: 1;
+}
+#fourthrow{
+    flex: 1;
+    display: flex;
+}
+#fourthrow button{
+    flex: 1;
 }
 
+#container *{
+font-size: 5vh;
+}
 
